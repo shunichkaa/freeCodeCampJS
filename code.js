@@ -13,6 +13,7 @@ for (let i = 1; i <= count; i++ ) {rows.push(padRow(i , count));
 let continueLoop = false;
 let done = 0;
 while (continueLoop) {
+done++;
 }
 
 let result = ""
