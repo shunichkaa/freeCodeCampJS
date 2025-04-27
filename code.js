@@ -9,9 +9,10 @@ function padRow(rowNumber, rowCount) {
 for (let i = 1; i <= count; i++ ) {rows.push(padRow(i , count));
 }
 
-while (rows.length < count) {
-  rows.push(padRow(rows.length + 1, count));
-}
+
+// while (rows.length < count) {
+//   rows.push(padRow(rows.length + 1, count));
+// }
 
 let result = ""
 
