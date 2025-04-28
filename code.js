@@ -20,6 +20,9 @@ for (let i = 1; i <= count; i++ ) {rows.push(padRow(i , count));
   rows.push(padRow(i, count));
 }*/
 
+const numbers = [1,2,3]
+console.log(numbers)
+
 let result = ""
 
 /*for (let i = 1; i <= count; i++) {
