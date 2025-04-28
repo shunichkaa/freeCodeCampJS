@@ -16,6 +16,8 @@ for (let i = 1; i <= count; i++ ) {rows.push(padRow(i , count));
 //   rows.push(padRow(rows.length + 1, count));
 // }
 
+for (let i = count; i > 0; i = i - 1) {}
+
 let result = ""
 
 /*for (let i = 1; i <= count; i++) {
