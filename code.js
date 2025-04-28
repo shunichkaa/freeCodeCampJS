@@ -21,9 +21,11 @@ for (let i = 1; i <= count; i++ ) {rows.push(padRow(i , count));
 }*/
 
 const numbers = [1, 2, 3];
-const unshifted = numbers.unshift(5)
-console.log(numbers);
+const shifted = numbers.shift(5);
+console.log(shifted);
+const unshifted = numbers.unshift(5);
 console.log(unshifted);
+console.log(numbers);
 
 let result = ""
 
