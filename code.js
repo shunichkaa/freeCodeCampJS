@@ -20,8 +20,10 @@ for (let i = 1; i <= count; i++ ) {rows.push(padRow(i , count));
   rows.push(padRow(i, count));
 }*/
 
-const numbers = [1,2,3]
-console.log(numbers)
+const numbers = [1, 2, 3];
+const unshifted = numbers.unshift(5)
+console.log(numbers);
+console.log(unshifted);
 
 let result = ""
 
